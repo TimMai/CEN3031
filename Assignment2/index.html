@@ -44,12 +44,12 @@
           <div class="formBox"><input type="text" placeholder="Required" ng-model="code" required></div><br>
           <div class="formBox"><strong>Building name</strong></div>
           <div class="formBox"><input type="text" placeholder="Required" ng-model="name" required></div><br>
+          <div class="formBox"><strong>Address</strong></div>
+          <div class="formBox"><input type="text" placeholder="Required" ng-model="address" required></div><br>
           <div class="formBox"><strong>Latitude</strong></div>
           <div class="formBox"><input type="text" ng-model="latitude"></div><br>
           <div class="formBox"><strong>Longitude</strong></div>
           <div class="formBox"><input type="text" ng-model="longitude"></div><br> 
-          <div class="formBox"><strong>Address</strong></div>
-          <div class="formBox"><input type="text" ng-model="address"></div><br>
           <div class="formBox"><input type="submit" value="Submit"></div>
         </form>
       </div>
@@ -61,9 +61,9 @@
         </h2>
         <strong><font size="4">Code: </strong>{{detailedInfo.code}} </font><br><br>
         <strong><font size="4">Building Name: </strong>{{detailedInfo.name}} </font><br><br>
+        <strong><font size="4">Address: </strong>{{detailedInfo.address}} </font><br><br>
         <strong><font size="4">Latitude: </strong>{{detailedInfo.coordinates.latitude}} </font><br><br>
         <strong><font size="4">Longitude: </strong>{{detailedInfo.coordinates.longitude}} </font><br><br>
-        <strong><font size="4">Address: </strong>{{detailedInfo.address}} </font><br><br>
       </div>
     </div>
   </div>

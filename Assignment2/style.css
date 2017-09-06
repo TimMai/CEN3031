@@ -2,7 +2,6 @@
   margin: 15px 10px;
 }
 
-
 .tableWrapper {
   max-height: 400px;
   overflow: auto;
@@ -18,12 +17,19 @@
 .formBox {
   position: relative;
   left: 100px;
-};
+}
 
 .orange {
   background-color: orange;
-};
+}
 
 .blue {
   background-color: lightblue;
-};
+}
+
+img {
+  left: 200px;
+  top: 0px;
+}
+
+
